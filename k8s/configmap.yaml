@@ -7,6 +7,6 @@ data:
   config.json: |
     {
       "app_name": "Portal",
-      "subtitle": "Running on Kubernetes with GitOps",
+      "subtitle": "Running on Kubernetes with GitOps - Argo CD",
       "owner": "unassigned"
     }
