@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: portal-b-config
+  namespace: exam-2
+data:
+  config.json: |
+    {
+      "app_name": "Portal",
+      "subtitle": "Running on Kubernetes with GitOps",
+      "owner": "unassigned"
+    }

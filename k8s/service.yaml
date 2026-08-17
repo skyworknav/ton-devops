@@ -1,11 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: ton-devops
+  name: portal-b
+  namespace: exam-2
 spec:
   selector:
-    app: ton-devops
+    app: portal-b
   ports:
-    - port: 80
-      targetPort: 80
-  type: ClusterIP
+    - port: 5000
+      targetPort: 5000
+      nodePort: 30082
+  type: NodePort
