@@ -18,7 +18,7 @@ spec:
 
       containers:
         - name: portal-b
-          image: 192.168.10.23:5000/portal-b:staging-1506daa
+          image: 192.168.10.23:5000/portal-b:staging-2df0e7f
           imagePullPolicy: IfNotPresent
 
           ports:
@@ -32,7 +32,7 @@ spec:
               value: "staging"
 
             - name: APP_VERSION
-              value: staging-1506daa
+              value: staging-2df0e7f
 
             - name: API_KEY
               valueFrom:
