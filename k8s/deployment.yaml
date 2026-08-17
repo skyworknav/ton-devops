@@ -77,4 +77,4 @@ spec:
       volumes:
         - name: app-config
           configMap:
-            name: portal-b-config
+            name: portal-b-config-production
