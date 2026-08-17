@@ -18,7 +18,7 @@ spec:
 
       containers:
         - name: portal-b
-          image: 192.168.10.23:5000/portal-b:5668f0f
+          image: 192.168.10.23:5000/portal-b:8e4aaf5
           imagePullPolicy: IfNotPresent
 
           ports:
@@ -32,7 +32,7 @@ spec:
               value: "production"
 
             - name: APP_VERSION
-              value: 5668f0f
+              value: 8e4aaf5
 
             - name: API_KEY
               valueFrom:
