@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ton-devops
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ton-devops
+  template:
+    metadata:
+      labels:
+        app: ton-devops
+    spec:
+      containers:
+        - name: ton-devops
+          image: nginx:1.27
+          ports:
+            - containerPort: 80
