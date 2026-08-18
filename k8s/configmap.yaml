@@ -8,5 +8,5 @@ data:
     {
       "app_name": "Portal",
       "subtitle": "Running on Kubernetes with GitOps - Argo CD",
-      "owner": "anton
+      "owner": "anton"
     }
